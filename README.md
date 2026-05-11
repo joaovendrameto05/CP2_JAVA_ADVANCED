@@ -45,7 +45,7 @@ As operações foram validadas localmente utilizando o cliente HTTP Insomnia[cit
 Realiza a inserção de dados através do envio de uma estrutura JSON, persistindo a informação no banco de dados.
 
 **Exemplo de Payload:**
-```json
+``json
 {
   "nome": "Lego Star Wars Millennium Falcon",
   "tipo": "Blocos de Montar",
@@ -53,6 +53,7 @@ Realiza a inserção de dados através do envio de uma estrutura JSON, persistin
   "tamanho": "Grande",
   "preco": 850.50
 }
+``
 
 2. Consultar Registros (GET /brinquedos)
 Retorna a lista em formato JSON contendo todos os brinquedos armazenados.
